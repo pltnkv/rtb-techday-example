@@ -1,6 +1,9 @@
+/// <reference path="../typings/ts.d.ts" />
 import Hello from "./Hello"
 
-require('style.less')
+require('../static/style.less')
 
 let hello = new Hello()
-hello.saySomething()
+document.getElementById('btn').addEventListener('click', () => {
+    hello.saySomething() // в этой строке tslint будет ругаться пробелы вместо табуляции
+})

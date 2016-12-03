@@ -27,7 +27,6 @@
         "singleline": "never"
       }
     ],
-    "no-unreachable": true,
     "typedef-whitespace": [
       true,
       {
