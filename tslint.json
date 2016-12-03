@@ -1,0 +1,48 @@
+{
+  "rules": {
+    "class-name": true,
+    "curly": true,
+    "no-var-keyword": true,
+    "no-unused-expression": true,
+    "no-switch-case-fall-through": true,
+    "no-unused-new": true,
+    "radix": true,
+    "use-isnan": true,
+    "no-shadowed-variable": true,
+    "indent": [
+      true,
+      "tabs"
+    ],
+    "no-conditional-assignment": true,
+    "no-console": [
+      true,
+      "log"
+    ],
+    "no-consecutive-blank-lines": true,
+    "no-duplicate-variable": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "no-unreachable": true,
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "whitespace": [
+      true,
+      "check-decl",
+      "check-separator",
+      "check-operator"
+    ]
+  }
+}
