@@ -102,5 +102,5 @@ function getProductionConfig() {
 }
 
 
-// module.exports = getDevelopmentConfig()
-module.exports = getProductionConfig()
+module.exports = getDevelopmentConfig()
+// module.exports = getProductionConfig()
